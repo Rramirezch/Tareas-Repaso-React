@@ -1,0 +1,82 @@
+ [
+        {
+            "name": "water-veil",
+            "url": "https://pokeapi.co/api/v2/ability/41/"
+        },
+        {
+            "name": "magnet-pull",
+            "url": "https://pokeapi.co/api/v2/ability/42/"
+        },
+        {
+            "name": "soundproof",
+            "url": "https://pokeapi.co/api/v2/ability/43/"
+        },
+        {
+            "name": "rain-dish",
+            "url": "https://pokeapi.co/api/v2/ability/44/"
+        },
+        {
+            "name": "sand-stream",
+            "url": "https://pokeapi.co/api/v2/ability/45/"
+        },
+        {
+            "name": "pressure",
+            "url": "https://pokeapi.co/api/v2/ability/46/"
+        },
+        {
+            "name": "thick-fat",
+            "url": "https://pokeapi.co/api/v2/ability/47/"
+        },
+        {
+            "name": "early-bird",
+            "url": "https://pokeapi.co/api/v2/ability/48/"
+        },
+        {
+            "name": "flame-body",
+            "url": "https://pokeapi.co/api/v2/ability/49/"
+        },
+        {
+            "name": "run-away",
+            "url": "https://pokeapi.co/api/v2/ability/50/"
+        },
+        {
+            "name": "keen-eye",
+            "url": "https://pokeapi.co/api/v2/ability/51/"
+        },
+        {
+            "name": "hyper-cutter",
+            "url": "https://pokeapi.co/api/v2/ability/52/"
+        },
+        {
+            "name": "pickup",
+            "url": "https://pokeapi.co/api/v2/ability/53/"
+        },
+        {
+            "name": "truant",
+            "url": "https://pokeapi.co/api/v2/ability/54/"
+        },
+        {
+            "name": "hustle",
+            "url": "https://pokeapi.co/api/v2/ability/55/"
+        },
+        {
+            "name": "cute-charm",
+            "url": "https://pokeapi.co/api/v2/ability/56/"
+        },
+        {
+            "name": "plus",
+            "url": "https://pokeapi.co/api/v2/ability/57/"
+        },
+        {
+            "name": "minus",
+            "url": "https://pokeapi.co/api/v2/ability/58/"
+        },
+        {
+            "name": "forecast",
+            "url": "https://pokeapi.co/api/v2/ability/59/"
+        },
+        {
+            "name": "sticky-hold",
+            "url": "https://pokeapi.co/api/v2/ability/60/"
+        }
+    ]

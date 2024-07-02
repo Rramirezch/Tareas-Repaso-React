@@ -1,0 +1,44 @@
+body{
+  background-color: beige;
+}
+.containerUno{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+  margin-left: 150px;
+}
+.container{
+  width: 320px;
+  text-align: center;
+  background-color: rgb(173, 145, 111);
+  border: solid 2px coral;
+  border-radius: 8px;
+  
+}
+
+h1{
+  margin-top: 10px;
+  color: green;
+  margin-left: 300px;
+}
+.titulo{
+  font-size: 25px;
+  color: rgb(223, 50, 50);
+}
+.estado{
+  margin-left: 25px;
+}
+.reloj{
+  margin-top: 30px;
+  border: solid 1px brown;
+  border-radius: 1px;
+  width: 300px;
+  background-color: antiquewhite;
+  text-align: center;
+  margin-left: 300px;
+}
+.imagen{
+  margin-top: 10px;
+  border-radius: 100%;
+  border: .8px solid goldenrod;
+}

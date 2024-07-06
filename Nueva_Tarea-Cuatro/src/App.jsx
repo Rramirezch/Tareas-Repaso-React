@@ -1,53 +1,37 @@
-import { useEffect, useState } from 'react'
-import Reloj from './componente/reloj'
-import CharacterCard from './componente/characterCard'
-import RickAndMortyCharacterCard from './componente/RickAndMortyCharacterCard'
-import './App.css'
-import React from 'react'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import HomePage from './pages/characterPage';
+import RickyCharacter from './pages/rickyCharacters'
+import Episodes from './pages/episodePage';
+import NotFoundPage from './pages/404';
+import Personaje from './pages/personaje'
+
 
 
 function App() {
   
-  const [name, setName] = useState("");
-  const [image, setImage] = useState("");
-  const [gender, setGender] = useState("");
-  const [status, setStatus] = useState("");
-  const rickAndMortyCharacterId = 1;
-
-
-  useEffect(() => {
-    fetch("https://rickandmortyapi.com/api/character/"+rickAndMortyCharacterId)
-      .then((response) => response.json())
-      .then((results)=> {
-        console.log(results);
-        setName(results.name);
-        setImage(results.image);
-        setGender(results.gender);
-        setStatus(results.status);
-      }); 
-    }, []);
-
 
   return (
-    <>
-      <Reloj />
-    
-      <h1>PERSONAJE DE RICK AND MORTY</h1>
-      <div className='containerUno'>
-      <CharacterCard
-        
-        image={image}
-        name={name}
-        gender={gender}
-        status={status}
-      />
-      <RickAndMortyCharacterCard id={2} />
-      <RickAndMortyCharacterCard id={3} />
-      <RickAndMortyCharacterCard id={5} />
-      <RickAndMortyCharacterCard id={6} />
-      <RickAndMortyCharacterCard id={10} />
+    <Router>
+      <ul>
+        <li>
+            <Link to='/'>Home</Link>
+        </li>
+      </ul>
+      <div>
+        <switch>
+          <Routes>
+            <Route path="/" exact element={<HomePage />} />
+            <Route path="/RickyCharacter" exact element={<RickyCharacter />} />
+            <Route path="/Episodes" exact element={<Episodes />} />
+            <Route path="/Personaje" exact element={<Personaje />} />
+            <Route path='*' element={<NotFoundPage/>} />
+
+          </Routes>
+      </switch>
       </div>
-    </>  
-    )
-  }
+    </Router>
+  )
+
+}
+
 export default App

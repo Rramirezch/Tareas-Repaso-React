@@ -1,32 +1,77 @@
 body{
-  background-color: beige;
+  background-color: rgb(212, 32, 212);
+}
+.home{
+  display: flex;
+  flex-direction: row;
+}
+h3{
+  padding-bottom: 10px;
+}
+.span{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.imgHome{
+  border: solid 1.5px blue;
+  border-radius: 15px;
+  width: 320px;
+  margin-left: 450px;
+  margin-top: 15px;
+}
+.rickyHome{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(146, 186, 85);
+  border: solid 1px brown;
+  border-radius: 10px;
+  width: 560px;
+  margin-left: 330px;
+  font-weight: bolder;
+  padding-left: 20px;
 }
 .containerUno{
  display: flex;
  flex-wrap: wrap;
  gap: 10px;
-  margin-left: 150px;
 }
 .container{
-  width: 320px;
+  width: 250px;
   text-align: center;
   background-color: rgb(173, 145, 111);
   border: solid 2px coral;
   border-radius: 8px;
-  
+  margin-right: auto;
 }
-
+#personajeB{
+  margin-left: 400px;
+}
 h1{
   margin-top: 10px;
-  color: green;
-  margin-left: 300px;
+  color: greenyellow;
+  margin-left: 320px;
 }
 .titulo{
   font-size: 25px;
-  color: rgb(223, 50, 50);
+  color: blue;
+}
+.title1{
+  margin-left: 450px;
+}
+.span{
+  color: rgb(66, 63, 63);
+}
+.codigo{
+  margin-top: 30px;
+  background-color: black;
+  color: blueviolet;
+  font-size: x-large;
 }
 .estado{
-  margin-left: 25px;
+  margin-left: auto;
+}
+.genero{
+  margin-right: 8px;
 }
 .reloj{
   margin-top: 30px;
@@ -39,6 +84,28 @@ h1{
 }
 .imagen{
   margin-top: 10px;
-  border-radius: 100%;
+  width: 230px;
   border: .8px solid goldenrod;
+  border-radius: 100%;
+}
+.button{
+  background-color: aquamarine;
+  border-radius: 3px;
+  border: solid 1px green;
+  width: 338px;
+  margin-bottom: 10px;
+}
+.up{
+  background-color: aqua;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.down{
+  background-color: aqua;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.personaje{
+  margin-left: 470px;
+  margin-top: 15px;
 }
